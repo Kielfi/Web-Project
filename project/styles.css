@@ -1,0 +1,260 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('d733345e4f11231904e7634a04439e21.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    background-color: rgba(255, 255, 255, 1); 
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    width: 350px;
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.box:hover {
+    transform: scale(1.02);
+}
+
+.button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.2s;
+}
+
+.button:hover {
+    background-color: #2980b9;
+}
+
+input[type="text"], input[type="password"], input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border 0.2s;
+}
+
+input[type="text"]:focus, input[type="password"]:focus, input[type="email"]:focus {
+    border-color: #3498db;
+}
+.back-button {
+    display: inline-block;
+    background-color: #e74c3c;
+    color: white;
+    padding: 10px 15px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.back-button:hover {
+    background-color: #c0392b;
+}
+body, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #3498db;
+    overflow: hidden;
+}
+
+.navbar ul {
+    list-style-type: none;
+}
+
+.navbar ul li {
+    float: left;
+}
+
+.navbar a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #2980b9;
+}
+.main-content {
+    width: 80%;
+    margin: 20px auto;
+    background-color: rgba(255, 255, 255, 1);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.main-content h1 {
+    font-size: 2.5em;
+    text-align: center;
+    margin-top: 0;
+}
+
+.main-content h2 {
+    font-size: 2em;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 10px;
+    margin-top: 40px;
+}
+
+.main-content p {
+    font-size: 1em;
+    margin: 20px 0;
+}
+
+.main-content img {
+    max-width: 100%;
+    margin: 20px 0;
+}
+.site-footer {
+    background-color: #333; 
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.site-footer p {
+    margin: 0;
+    font-size: 0.9em;
+}
+.faq-section {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 10px;
+}
+
+.faq-section h2 {
+    font-size: 2.2em;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.faq-item h3 {
+    font-size: 1.6em;
+    margin-top: 20px;
+    color: #3498db; /* This makes the question stand out a bit */
+}
+
+.faq-item p {
+    font-size: 1em;
+    margin: 10px 0 20px;
+}
+.logo-container {
+    float: left; /* positions the logo to the left */
+    margin-right: 20px; /* gives some space between logo and nav items */
+    padding: 10px 0; /* vertical padding to center logo vertically */
+}
+
+.logo {
+    height: 40px; /* Adjust based on the size of your logo */
+    width: auto; /* Keeps the logo's aspect ratio */
+}
+.search-form {
+    display: flex;
+    margin-top: 20px;
+}
+
+.search-form input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    flex: 1;
+}
+
+.search-form button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+/* Define a background color for the text elements */
+.text-container {
+    background-color: #ffffff; /* Change to the desired solid color, #ffffff represents white */
+    padding: 10px; /* Add some padding for spacing */
+}
+
+/* Define a semi-transparent background for images if needed */
+.image-container {
+    background-color: rgba(255, 255, 255, 1); /* Adjust the color and opacity as needed */
+    padding: 10px; /* Add some padding for spacing */
+    display: inline-
+}
+
+.slideshow-container {
+    max-width: 100%;
+    position: relative;
+    margin-top: 20px; /* Adjust as needed to position the slideshow */
+}
+
+/* Hide slides by default */
+.mySlides {
+    display: none;
+}
+
+/* Style for navigation buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: #3498db;
+    font-size: 30px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 5px;
+}
+
+/* Adjust the previous and next buttons as needed */
+.prev {
+    left: 0;
+}
+
+.next {
+    right: 0;
+}
+/* Slideshow container */
+.slideshow-container {
+    max-width: 100%;
+    height: 300px; /* Adjust the height as needed */
+    position: relative;
+    margin-top: 20px; /* Adjust as needed to position the slideshow */
+}
+
+/* Style for the images within the slideshow */
+.mySlides img {
+    width: 100%;
+    height: 100%;
+}
